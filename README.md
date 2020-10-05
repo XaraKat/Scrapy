@@ -25,7 +25,7 @@ pip install scrapy-user-agents
 # Spiders
 1. Navigate into `amzbooks` folder.
 ```sh
-cd amazbooks
+cd amzbooks
 ```
 
 2. Make  spider(e.g info) start crawling using  the following command in PyCharm's terminal :
