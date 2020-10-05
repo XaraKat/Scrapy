@@ -26,10 +26,10 @@ class AmzSpider(scrapy.Spider):
         for res in whole:
             price = res.css('.product-link::text').extract()
 
-            items['product_price1'] = price
+            items['product_price'] = price
 
 
             items['title'] = title
-            items['product_author1'] = author
+            items['product_author'] = author
 
             yield items

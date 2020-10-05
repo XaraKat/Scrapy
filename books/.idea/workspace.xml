@@ -15,7 +15,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Scrapy" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1gt8ctQVnhbZhsqifBCEOrtyZW9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,8 +26,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Python.csv2">
     <configuration name="Csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -148,10 +148,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1600281235142" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1601607036128">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1601869219864">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1601607036128" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1601869219864" />
     <state width="1259" height="210" key="GridCell.Tab.0.bottom" timestamp="1600086827683">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -168,10 +168,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="210" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600086827683" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1600204156572">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1601869215249">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1600204156572" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601869215249" />
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1601607022791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

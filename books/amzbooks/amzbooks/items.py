@@ -13,8 +13,8 @@ import re
 class AmzbooksItem(scrapy.Item):
     # define the fields for your item here like:
     title = scrapy.Field()
-    product_author1 = scrapy.Field()
-    product_price1 = scrapy.Field()
+    product_author = scrapy.Field()
+    product_price = scrapy.Field()
 
 
 class Body(scrapy.Item):
