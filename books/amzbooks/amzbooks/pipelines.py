@@ -34,7 +34,7 @@ class AmzbooksPipeline:
             return item
 
     def store_db(self,item):
-
+        #insert title,author,citation,page source into db
         self.curr.execute("""insert into docs_tb values (?,?,?,?)""",(
             item['title'][0],
             [item['author']][0],

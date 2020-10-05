@@ -10,7 +10,7 @@ class DataSpider(scrapy.Spider):
     def parse(self, response):
         table = response.css('td:nth-child(1)')
 
-        #fore ech row  of the table
+        #for each row  of the table
         for res in table:
             hospital_name = res.css('td:nth-child(1) a::text').extract()
             location = res.css('td+ td a::text').extract()
