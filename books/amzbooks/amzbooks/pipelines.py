@@ -37,6 +37,8 @@ class AmzbooksPipeline:
         #insert title,author,citation,page source into db
         self.curr.execute("""insert into docs_tb values (?,?,?,?)""",(
             item['title'][0],
+
+            #take all authors on the same line
             [item['author']][0],
             item['cited_by'][0],
             item['file'][0]
