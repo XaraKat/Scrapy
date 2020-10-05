@@ -6,7 +6,6 @@ import os.path
 class InfoSpider(scrapy.Spider):
     #spidername
     name = 'info'
-    counter_page = 1
 
     #start request for each author
     def start_requests(self):
@@ -43,8 +42,6 @@ class InfoSpider(scrapy.Spider):
             # h1 a:not(span)::text
             # to get only the name of doc
             file = ''.join(r.css('.gs_or_ggsm a:not(span)::text').extract())
-            link = r.css('.gs_ri .gs_rt a::attr(href)').extract()
-
             if file == "" :
                 items['file'] = 'does not have source'
             else:

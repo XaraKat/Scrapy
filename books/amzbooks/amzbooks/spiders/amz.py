@@ -8,8 +8,6 @@ import os.path
 class AmzSpider(scrapy.Spider):
     name = 'amz'
 
-    counter_page = 1
-
     #start request for each author
     def start_requests(self):
 

@@ -15,9 +15,9 @@ class AmzbooksItem(scrapy.Item):
     product_price = scrapy.Field()
 
 
-class Body(scrapy.Item):
-    title = scrapy.Field()
-    description =scrapy.Field()
+class HosItem(scrapy.Item):
+    hospital = scrapy.Field()
+    location =scrapy.Field()
 
 
 class DevBookItem(scrapy.Item):

@@ -64,6 +64,6 @@ class XelSpider(XMLFeedSpider):
         item['affil_city'] = affiliation_city
         item['affil_country'] = affiliation_country
 
-        #shows all items
+        #show all items
         yield item
 
