@@ -10,7 +10,7 @@ Python 3.8
 - PyCharm Community Edition 2019.3.3
 - Scrapy 1.8.0
 
-# Installation
+# Install
 
 Install Scrapy with:
 ```sh
@@ -22,8 +22,12 @@ Install User-Agents with:
 pip install scrapy-user-agents
 ```
 
+# Spiders
+In order for a spider(e.g info) to start crawling ,run the following command in PyCharms terminal :
 
-
+```sh
+scrapy crawl info
+```
 
 # Disclaimer
 Always respect the policy of the website and the restrictions of robots.txt.
