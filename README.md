@@ -18,6 +18,12 @@ Install Scrapy with:
 pip install Scrapy
 ```
 
+Install User-Agents with:
+```sh
+pip install scrapy-user-agents
+```
+
+
 
 
 # Disclaimer
