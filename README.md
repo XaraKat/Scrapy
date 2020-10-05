@@ -3,10 +3,10 @@ This project contains examples of spiders that extract data from different websi
 
 # Instalation
 
-This repository uses conda to manage its environment as specified in environment.yml. Install the environment with:
+This repository uses  Install the environment with:
 
 pip install Scrapy
-Then use source activate scihub and source deactivate to activate or deactivate the environment. On windows, use activate scihub and deactivate instead.
+
 
 
 # Disclaimer
