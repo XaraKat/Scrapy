@@ -46,11 +46,12 @@ class InfoSpider(scrapy.Spider):
             link = r.css('.gs_ri .gs_rt a::attr(href)').extract()
 
             if file == "" :
-                items['file'] = 'dont have source'
+                items['file'] = 'does not have source'
             else:
                 items['file'] = [file]
                 yield items
             items['title'] = title
             items['author'] = author
             items['cited_by'] = cit_by
+
 

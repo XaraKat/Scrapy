@@ -25,9 +25,9 @@ class AmzbooksPipeline:
         self.curr.execute("""create table docs_tb(Title text,Authors text,Cited_by text,description text)""")
 
     def process_item(self, item, spider):
-        #store only items from xel spider
+        #store only items from  spider named info
         #else return item
-        if spider.name not in ['xel']:
+        if spider.name not in ['info']:
             return item
         else:
             self.store_db(item)
@@ -37,9 +37,9 @@ class AmzbooksPipeline:
 
         self.curr.execute("""insert into docs_tb values (?,?,?,?)""",(
             item['title'][0],
-            item['author_names'][0],
+            [item['author']][0],
             item['cited_by'][0],
-            item['description'][0]
+            item['file'][0]
         ))
         self.conn.commit()
 

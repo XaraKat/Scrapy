@@ -6,10 +6,8 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-from itemloaders.processors import Join, MapCompose, TakeFirst
-import re
 
-
+#items for every spider class
 class AmzbooksItem(scrapy.Item):
     # define the fields for your item here like:
     title = scrapy.Field()
@@ -45,7 +43,7 @@ class GscholarItem(scrapy.Item):
     author = scrapy.Field()
     file = scrapy.Field()
     cited_by = scrapy.Field()
-    link = scrapy.Field()
+
 
 
 
