@@ -1,9 +1,16 @@
 # Scrapy
 This project contains examples of spiders that extract data from different websites.
 
+
+# Requirements
+
+Python 3.6+
+Works on Linux, Windows, macOS, BSD
+
+
 # Instalation
 
-This repository uses  Install the environment with:
+Install Scrapy with:
 
 pip install Scrapy
 
