@@ -10,7 +10,7 @@ Python 3.8
 - PyCharm Community Edition 2019.3.3
 - Scrapy 1.8.0
 
-# Instalation
+# Installation
 
 Install Scrapy with:
 ```sh
