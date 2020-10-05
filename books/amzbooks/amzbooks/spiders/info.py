@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from ..items import GscholarItem
-from scrapy.http import Request
 import os.path
-from scrapy_splash import SplashRequest
 
 class InfoSpider(scrapy.Spider):
     #spidername
@@ -16,11 +14,16 @@ class InfoSpider(scrapy.Spider):
         #to get relative path
         basepath = os.path.dirname(__file__)
         filepath = os.path.join(basepath,"authors.txt")
+
+        #open file
         with open(filepath) as f:
             author_names = list(f)
+
+        #for every name listed set the url
         for title in author_names:
             search_url = f'https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q={title.strip()}'
 
+            #Request url
             yield scrapy.Request(url=search_url, callback=self.parse)
 
     def parse(self, response):
