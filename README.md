@@ -4,9 +4,11 @@ This project contains examples of spiders that extract data from different websi
 
 # Requirements
 
-Python 3.6+
-Works on Linux, Windows, macOS, BSD
+Python 3.8
 
+# Built With
+
+PyCharm Community Edition 2019.3.3
 
 # Instalation
 
