@@ -13,8 +13,9 @@ PyCharm Community Edition 2019.3.3
 # Instalation
 
 Install Scrapy with:
-
+```sh
 pip install Scrapy
+```
 
 
 
