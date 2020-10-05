@@ -36,7 +36,7 @@ class AmzSpider(scrapy.Spider):
             page = res.css('h2 a::attr(href)').get()
             book_page = 'https://www.skroutz.gr/' + page
 
-            #visit every book page
+            #visit every book page and get info
             yield Request(url = book_page,callback =self.parse_details,meta= {'items' :items})
 
     def parse_details(self,response):
