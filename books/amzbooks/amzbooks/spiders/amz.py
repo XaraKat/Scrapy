@@ -33,7 +33,7 @@ class AmzSpider(scrapy.Spider):
         items = AmzbooksItem()
         #selector for every book
         whole = response.css('.card')
-        
+
         for res in whole:
             page = res.css('h2 a::attr(href)').get()
             book_page = 'https://www.skroutz.gr/' + page
